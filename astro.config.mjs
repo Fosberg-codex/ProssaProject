@@ -7,7 +7,7 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [starlight({
     favicon: '/favicon.ico',
-    title: 'Docs | Prossa',
+    title: 'Prossa | Docs',
     customCss: ['./src/styles/custom.css'],
     social: {
       github: 'https://github.com/Fosberg-codex/prossa'
